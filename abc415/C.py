@@ -1,6 +1,5 @@
 T = int(input())
-S = [input().strip() for _ in range(T)]
+N = int(input())
+S = input()
 
-while T > 0:
-    T -= 1
-    
+n2 = 1 << N
